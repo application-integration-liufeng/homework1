@@ -30,3 +30,16 @@
 ```shell
 > npm run initdb
 ```
+
+## 添加Controller
+- 在controllers目录中创建controller
+- 在routes/index.js中添加controller的路由
+- 在config.js中添加controller路由的jwt访问许可
+```
+例子:
+path: [
+            /^\/tushare\/detail/,
+            /^\/tushare\/list/,
+            /^\/tushare\/get/,
+      ]
+```
