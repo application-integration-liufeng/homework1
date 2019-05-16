@@ -3,14 +3,14 @@ const CONF = {
         host: 'localhost',
         port: 3306,
         user: 'root',
-        db: 'application_integration',
+        db: 'stock',
         pass: '123456',
         char: 'utf8mb4'
     },
     token: {
         secret: 'jwt demo',
         path: [
-//            /^\/api\/v1\/user\/login/,
+            /^\/tushare\/detail/,
         ]
     },
     url: {
