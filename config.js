@@ -11,6 +11,7 @@ const CONF = {
         secret: 'jwt demo',
         path: [
             /^\/tushare\/detail/,
+            /^\/tushare\/list/,
         ]
     },
     url: {
