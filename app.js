@@ -46,9 +46,9 @@ app.use(async (ctx, next) => {
 });
 
 // path数组中的路径不需要jwt验证
-app.use(jwtKoa({secret: configs.token.secret}).unless({
-    path: configs.token.path
-}));
+// app.use(jwtKoa({secret: configs.token.secret}).unless({
+//     path: configs.token.path
+// }));
 
 // 引入路由分发
 const router = require('./routes');

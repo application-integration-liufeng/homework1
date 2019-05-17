@@ -1,4 +1,6 @@
 const mysql = require('../middleware/mysql');
+const tushare = require('../middleware/tushare');
+const { tushare: tushare_config } = require('../config');
 
 module.exports = async (ctx) =>{
 
@@ -8,5 +10,29 @@ module.exports = async (ctx) =>{
         .select('*')
         .where('symbol', symbol);
 
-    ctx.body = results[0];
+    let stockDetail = results[0];
+
+    let today = new Date();
+    let year = today.getFullYear().toString();
+    let month = today.getMonth() + 1;
+    if (month < 10) {
+        month = '0' + month;
+    } else {
+        month = month.toString();
+    }
+    let day = '01';
+
+    const data = {
+        api_name : 'daily',
+        token : tushare_config.token,
+        params : {
+            ts_code : stockDetail.ts_code,
+            start_date: year + month + day
+        },
+        fields : ''
+    };
+
+    stockDetail.daily = (await tushare(data)).data;
+
+    ctx.body = stockDetail;
 };
