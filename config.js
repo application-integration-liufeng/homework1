@@ -12,6 +12,8 @@ const CONF = {
         path: [
             /^\/tushare\/detail/,
             /^\/tushare\/list/,
+            /^\/xueqiu\/detail/,
+            /^\/xueqiu\/list/
         ]
     },
     url: {
@@ -27,7 +29,6 @@ const CONF = {
     tushare: {
         token: '582eee2fb6aa974db8555e9cf101b4c3a3a577e6ab3be0523f6b62aa'
     }
-
 };
 
 module.exports = CONF;

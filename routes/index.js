@@ -11,4 +11,6 @@ router.post(url.prefix + '/tushare/list', controllers.getTushareStockList);
 
 router.post(url.prefix + '/list', controllers.getStockList);
 
+router.post(url.prefix + '/xueqiu/list', controllers.getXueQiuStockList);
+
 module.exports = router;
