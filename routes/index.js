@@ -9,5 +9,6 @@ router.post(url.prefix + '/tushare/detail', controllers.getTushareStockDetail);
 
 router.post(url.prefix + '/tushare/list', controllers.getTushareStockList);
 
+router.post(url.prefix + '/xueqiu/list', controllers.getXueQiuStockList);
 
 module.exports = router;
