@@ -8,5 +8,5 @@ module.exports = async ctx => {
       .where('symbol', stock.symbol)
       .update(stock);
   });
-  ctx.body = { results };
+  ctx.body = results;
 };

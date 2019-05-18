@@ -6,6 +6,9 @@
 		<industry>银行</industry>
 		<list_date>19910403</list_date>
 		<yesterday>12.44</yesterday>
+		<chg>-0.41</chg>
+		<percent>-3.19</percent>
+		<market_capital>213599917393</market_capital>
 	</平安银行>
 	<万科A>
 		<code>000002</code>
@@ -13,6 +16,9 @@
 		<industry>全国地产</industry>
 		<list_date>19910129</list_date>
 		<yesterday>27.36</yesterday>
+		<chg>-0.77</chg>
+		<percent>-2.74</percent>
+		<market_capital>309226632507</market_capital>
 	</万科A>
 	<国农科技>
 		<code>000004</code>
@@ -20,6 +26,9 @@
 		<industry>生物制药</industry>
 		<list_date>19910114</list_date>
 		<yesterday>20.45</yesterday>
+		<chg>-0.97</chg>
+		<percent>-4.53</percent>
+		<market_capital>1717323188</market_capital>
 	</国农科技>
 	<世纪星源>
 		<code>000005</code>
@@ -27,6 +36,9 @@
 		<industry>环境保护</industry>
 		<list_date>19901210</list_date>
 		<yesterday>3.1</yesterday>
+		<chg>-0.15</chg>
+		<percent>-4.62</percent>
+		<market_capital>3281464210</market_capital>
 	</世纪星源>
 	<深振业A>
 		<code>000006</code>
@@ -34,6 +46,9 @@
 		<industry>区域地产</industry>
 		<list_date>19920427</list_date>
 		<yesterday>5.58</yesterday>
+		<chg>-0.18</chg>
+		<percent>-3.13</percent>
+		<market_capital>7532972357</market_capital>
 	</深振业A>
 	<全新好>
 		<code>000007</code>
@@ -41,6 +56,9 @@
 		<industry>酒店餐饮</industry>
 		<list_date>19920413</list_date>
 		<yesterday>6.37</yesterday>
+		<chg>-0.28</chg>
+		<percent>-4.21</percent>
+		<market_capital>2206874040</market_capital>
 	</全新好>
 	<神州高铁>
 		<code>000008</code>
@@ -48,6 +66,9 @@
 		<industry>运输设备</industry>
 		<list_date>19920507</list_date>
 		<yesterday>3.9</yesterday>
+		<chg>-0.12</chg>
+		<percent>-2.99</percent>
+		<market_capital>10845101849</market_capital>
 	</神州高铁>
 	<中国宝安>
 		<code>000009</code>
@@ -55,6 +76,9 @@
 		<industry>综合类</industry>
 		<list_date>19910625</list_date>
 		<yesterday>5.61</yesterday>
+		<chg>-0.3</chg>
+		<percent>-5.08</percent>
+		<market_capital>12057825287</market_capital>
 	</中国宝安>
 	<ST美丽>
 		<code>000010</code>
@@ -62,6 +86,9 @@
 		<industry>建筑施工</industry>
 		<list_date>19951027</list_date>
 		<yesterday>2.87</yesterday>
+		<chg>-0.04</chg>
+		<percent>-1.37</percent>
+		<market_capital>2352983026</market_capital>
 	</ST美丽>
 	<深物业A>
 		<code>000011</code>
@@ -69,6 +96,9 @@
 		<industry>区域地产</industry>
 		<list_date>19920330</list_date>
 		<yesterday>9.9</yesterday>
+		<chg>-0.4</chg>
+		<percent>-3.88</percent>
+		<market_capital>5900193011</market_capital>
 	</深物业A>
 	<南玻A>
 		<code>000012</code>
@@ -76,6 +106,9 @@
 		<industry>玻璃</industry>
 		<list_date>19920228</list_date>
 		<yesterday>4.61</yesterday>
+		<chg>-0.19</chg>
+		<percent>-3.96</percent>
+		<market_capital>13199707897</market_capital>
 	</南玻A>
 	<沙河股份>
 		<code>000014</code>
@@ -83,6 +116,9 @@
 		<industry>全国地产</industry>
 		<list_date>19920602</list_date>
 		<yesterday>9.55</yesterday>
+		<chg>-0.49</chg>
+		<percent>-4.88</percent>
+		<market_capital>1926284536</market_capital>
 	</沙河股份>
 	<深康佳A>
 		<code>000016</code>
@@ -90,6 +126,9 @@
 		<industry>家用电器</industry>
 		<list_date>19920327</list_date>
 		<yesterday>4.28</yesterday>
+		<chg>-0.21</chg>
+		<percent>-4.68</percent>
+		<market_capital>10306006346</market_capital>
 	</深康佳A>
 	<深中华A>
 		<code>000017</code>
@@ -97,6 +136,9 @@
 		<industry>文教休闲</industry>
 		<list_date>19920331</list_date>
 		<yesterday>4.34</yesterday>
+		<chg>-0.27</chg>
+		<percent>-5.86</percent>
+		<market_capital>2392850090</market_capital>
 	</深中华A>
 	<ST神城>
 		<code>000018</code>
@@ -104,6 +146,9 @@
 		<industry>装修装饰</industry>
 		<list_date>19920616</list_date>
 		<yesterday>1.51</yesterday>
+		<chg>-0.08</chg>
+		<percent>-5.03</percent>
+		<market_capital>2564349967</market_capital>
 	</ST神城>
 	<深粮控股>
 		<code>000019</code>
@@ -111,6 +156,9 @@
 		<industry>其他商业</industry>
 		<list_date>19921012</list_date>
 		<yesterday>7.67</yesterday>
+		<chg>0.03</chg>
+		<percent>0.39</percent>
+		<market_capital>8839945398</market_capital>
 	</深粮控股>
 	<深华发A>
 		<code>000020</code>
@@ -118,6 +166,9 @@
 		<industry>元器件</industry>
 		<list_date>19920428</list_date>
 		<yesterday>11.98</yesterday>
+		<chg>-0.08</chg>
+		<percent>-0.66</percent>
+		<market_capital>3392271499</market_capital>
 	</深华发A>
 	<深科技>
 		<code>000021</code>
@@ -125,6 +176,9 @@
 		<industry>电脑设备</industry>
 		<list_date>19940202</list_date>
 		<yesterday>7.96</yesterday>
+		<chg>-0.08</chg>
+		<percent>-1.0</percent>
+		<market_capital>11711224529</market_capital>
 	</深科技>
 	<深天地A>
 		<code>000023</code>
@@ -132,6 +186,9 @@
 		<industry>其他建材</industry>
 		<list_date>19930429</list_date>
 		<yesterday>12.91</yesterday>
+		<chg>-0.78</chg>
+		<percent>-5.7</percent>
+		<market_capital>1791343058</market_capital>
 	</深天地A>
 	<特力A>
 		<code>000025</code>
@@ -139,6 +196,9 @@
 		<industry>汽车服务</industry>
 		<list_date>19930621</list_date>
 		<yesterday>21.92</yesterday>
+		<chg>-0.81</chg>
+		<percent>-3.56</percent>
+		<market_capital>9448798374</market_capital>
 	</特力A>
 	<飞亚达A>
 		<code>000026</code>
@@ -146,6 +206,9 @@
 		<industry>其他商业</industry>
 		<list_date>19930603</list_date>
 		<yesterday>7.67</yesterday>
+		<chg>-0.27</chg>
+		<percent>-3.4</percent>
+		<market_capital>3397571317</market_capital>
 	</飞亚达A>
 	<深圳能源>
 		<code>000027</code>
@@ -153,6 +216,9 @@
 		<industry>火力发电</industry>
 		<list_date>19930903</list_date>
 		<yesterday>6.08</yesterday>
+		<chg>-0.15</chg>
+		<percent>-2.41</percent>
+		<market_capital>24104108910</market_capital>
 	</深圳能源>
 	<国药一致>
 		<code>000028</code>
@@ -160,6 +226,9 @@
 		<industry>医药商业</industry>
 		<list_date>19930809</list_date>
 		<yesterday>44.77</yesterday>
+		<chg>-1.12</chg>
+		<percent>-2.44</percent>
+		<market_capital>19167245029</market_capital>
 	</国药一致>
 	<深深房A>
 		<code>000029</code>
@@ -167,6 +236,9 @@
 		<industry>区域地产</industry>
 		<list_date>19930915</list_date>
 		<yesterday>11.17</yesterday>
+		<chg>0.0</chg>
+		<percent>0.0</percent>
+		<market_capital>11300242200</market_capital>
 	</深深房A>
 	<富奥股份>
 		<code>000030</code>
@@ -174,6 +246,9 @@
 		<industry>汽车配件</industry>
 		<list_date>19930929</list_date>
 		<yesterday>5.03</yesterday>
+		<chg>-0.08</chg>
+		<percent>-1.57</percent>
+		<market_capital>9107077118</market_capital>
 	</富奥股份>
 	<大悦城>
 		<code>000031</code>
@@ -181,6 +256,9 @@
 		<industry>全国地产</industry>
 		<list_date>19931008</list_date>
 		<yesterday>6.7</yesterday>
+		<chg>-0.29</chg>
+		<percent>-4.15</percent>
+		<market_capital>26303331265</market_capital>
 	</大悦城>
 	<深桑达A>
 		<code>000032</code>
@@ -188,6 +266,9 @@
 		<industry>元器件</industry>
 		<list_date>19931028</list_date>
 		<yesterday>8.57</yesterday>
+		<chg>-0.26</chg>
+		<percent>-2.94</percent>
+		<market_capital>3541292495</market_capital>
 	</深桑达A>
 	<神州数码>
 		<code>000034</code>
@@ -195,6 +276,9 @@
 		<industry>综合类</industry>
 		<list_date>19940509</list_date>
 		<yesterday>13.15</yesterday>
+		<chg>-0.53</chg>
+		<percent>-3.87</percent>
+		<market_capital>8601026207</market_capital>
 	</神州数码>
 	<中国天楹>
 		<code>000035</code>
@@ -202,6 +286,9 @@
 		<industry>环境保护</industry>
 		<list_date>19940408</list_date>
 		<yesterday>4.38</yesterday>
+		<chg>-0.25</chg>
+		<percent>-5.4</percent>
+		<market_capital>10681665279</market_capital>
 	</中国天楹>
 	<华联控股>
 		<code>000036</code>
@@ -209,6 +296,9 @@
 		<industry>全国地产</industry>
 		<list_date>19940617</list_date>
 		<yesterday>7.2</yesterday>
+		<chg>-0.22</chg>
+		<percent>-2.96</percent>
+		<market_capital>8218711526</market_capital>
 	</华联控股>
 	<深南电A>
 		<code>000037</code>
@@ -216,6 +306,9 @@
 		<industry>火力发电</industry>
 		<list_date>19940701</list_date>
 		<yesterday>9.68</yesterday>
+		<chg>-0.48</chg>
+		<percent>-4.72</percent>
+		<market_capital>5834741929</market_capital>
 	</深南电A>
 	<深大通>
 		<code>000038</code>
@@ -223,6 +316,9 @@
 		<industry>广告包装</industry>
 		<list_date>19940808</list_date>
 		<yesterday>12.4</yesterday>
+		<chg>-0.65</chg>
+		<percent>-4.98</percent>
+		<market_capital>6482439996</market_capital>
 	</深大通>
 	<中集集团>
 		<code>000039</code>
@@ -230,6 +326,9 @@
 		<industry>轻工机械</industry>
 		<list_date>19940408</list_date>
 		<yesterday>12.58</yesterday>
+		<chg>-0.47</chg>
+		<percent>-3.6</percent>
+		<market_capital>37552699349</market_capital>
 	</中集集团>
 	<东旭蓝天>
 		<code>000040</code>
@@ -237,6 +336,9 @@
 		<industry>新型电力</industry>
 		<list_date>19940808</list_date>
 		<yesterday>7.19</yesterday>
+		<chg>-0.28</chg>
+		<percent>-3.75</percent>
+		<market_capital>10690623125</market_capital>
 	</东旭蓝天>
 	<中洲控股>
 		<code>000042</code>
@@ -244,6 +346,9 @@
 		<industry>全国地产</industry>
 		<list_date>19940921</list_date>
 		<yesterday>10.64</yesterday>
+		<chg>-0.37</chg>
+		<percent>-3.36</percent>
+		<market_capital>7073803319</market_capital>
 	</中洲控股>
 	<中航善达>
 		<code>000043</code>
@@ -251,6 +356,9 @@
 		<industry>房产服务</industry>
 		<list_date>19940928</list_date>
 		<yesterday>11.53</yesterday>
+		<chg>-0.52</chg>
+		<percent>-4.32</percent>
+		<market_capital>7690065126</market_capital>
 	</中航善达>
 	<深纺织A>
 		<code>000045</code>
@@ -258,6 +366,9 @@
 		<industry>纺织</industry>
 		<list_date>19940815</list_date>
 		<yesterday>6.88</yesterday>
+		<chg>-0.37</chg>
+		<percent>-5.1</percent>
+		<market_capital>3517566145</market_capital>
 	</深纺织A>
 	<泛海控股>
 		<code>000046</code>
@@ -265,6 +376,9 @@
 		<industry>全国地产</industry>
 		<list_date>19940912</list_date>
 		<yesterday>6.38</yesterday>
+		<chg>-0.31</chg>
+		<percent>-4.63</percent>
+		<market_capital>33151760185</market_capital>
 	</泛海控股>
 	<ST康达>
 		<code>000048</code>
@@ -272,6 +386,9 @@
 		<industry>饲料</industry>
 		<list_date>19941101</list_date>
 		<yesterday>19.65</yesterday>
+		<chg>-0.3</chg>
+		<percent>-1.5</percent>
+		<market_capital>7678604385</market_capital>
 	</ST康达>
 	<德赛电池>
 		<code>000049</code>
@@ -279,6 +396,9 @@
 		<industry>电气设备</industry>
 		<list_date>19950320</list_date>
 		<yesterday>26.39</yesterday>
+		<chg>-1.02</chg>
+		<percent>-3.72</percent>
+		<market_capital>5416382246</market_capital>
 	</德赛电池>
 	<深天马A>
 		<code>000050</code>
@@ -286,6 +406,9 @@
 		<industry>元器件</industry>
 		<list_date>19950315</list_date>
 		<yesterday>13.15</yesterday>
+		<chg>-0.71</chg>
+		<percent>-5.12</percent>
+		<market_capital>26932818121</market_capital>
 	</深天马A>
 	<方大集团>
 		<code>000055</code>
@@ -293,6 +416,9 @@
 		<industry>其他建材</industry>
 		<list_date>19960415</list_date>
 		<yesterday>5.44</yesterday>
+		<chg>-0.26</chg>
+		<percent>-4.56</percent>
+		<market_capital>6111209988</market_capital>
 	</方大集团>
 	<皇庭国际>
 		<code>000056</code>
@@ -300,6 +426,9 @@
 		<industry>房产服务</industry>
 		<list_date>19960708</list_date>
 		<yesterday>4.87</yesterday>
+		<chg>-0.25</chg>
+		<percent>-4.88</percent>
+		<market_capital>5723931942</market_capital>
 	</皇庭国际>
 	<深赛格>
 		<code>000058</code>
@@ -307,6 +436,9 @@
 		<industry>元器件</industry>
 		<list_date>19961226</list_date>
 		<yesterday>6.55</yesterday>
+		<chg>-0.13</chg>
+		<percent>-1.95</percent>
+		<market_capital>8093548431</market_capital>
 	</深赛格>
 	<华锦股份>
 		<code>000059</code>
@@ -314,6 +446,9 @@
 		<industry>石油加工</industry>
 		<list_date>19970130</list_date>
 		<yesterday>6.72</yesterday>
+		<chg>-0.24</chg>
+		<percent>-3.45</percent>
+		<market_capital>10748253849</market_capital>
 	</华锦股份>
 	<中金岭南>
 		<code>000060</code>
@@ -321,6 +456,9 @@
 		<industry>铅锌</industry>
 		<list_date>19970123</list_date>
 		<yesterday>4.55</yesterday>
+		<chg>-0.19</chg>
+		<percent>-4.01</percent>
+		<market_capital>16242068238</market_capital>
 	</中金岭南>
 	<农产品>
 		<code>000061</code>
@@ -328,6 +466,9 @@
 		<industry>农业综合</industry>
 		<list_date>19970110</list_date>
 		<yesterday>6.14</yesterday>
+		<chg>0.17</chg>
+		<percent>2.85</percent>
+		<market_capital>10419359764</market_capital>
 	</农产品>
 	<深圳华强>
 		<code>000062</code>
@@ -335,6 +476,9 @@
 		<industry>批发业</industry>
 		<list_date>19970130</list_date>
 		<yesterday>14.25</yesterday>
+		<chg>0.54</chg>
+		<percent>3.94</percent>
+		<market_capital>14904207839</market_capital>
 	</深圳华强>
 	<中兴通讯>
 		<code>000063</code>
@@ -342,6 +486,9 @@
 		<industry>通信设备</industry>
 		<list_date>19971118</list_date>
 		<yesterday>28.5</yesterday>
+		<chg>-1.12</chg>
+		<percent>-3.78</percent>
+		<market_capital>119491147526</market_capital>
 	</中兴通讯>
 	<北方国际>
 		<code>000065</code>
@@ -349,6 +496,9 @@
 		<industry>建筑施工</industry>
 		<list_date>19980605</list_date>
 		<yesterday>9.09</yesterday>
+		<chg>-0.76</chg>
+		<percent>-7.72</percent>
+		<market_capital>6994804177</market_capital>
 	</北方国际>
 	<中国长城>
 		<code>000066</code>
@@ -356,5 +506,8 @@
 		<industry>电脑设备</industry>
 		<list_date>19970626</list_date>
 		<yesterday>0.0</yesterday>
+		<chg>-0.04</chg>
+		<percent>-0.44</percent>
+		<market_capital>26542936662</market_capital>
 	</中国长城>
 </stocks>

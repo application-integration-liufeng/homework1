@@ -20,7 +20,7 @@ module.exports = async (ctx) => {
     if (offset >= list.length) {
         return;
     }
-    let end = offset + 20;
+    let end = offset + 10;
     if (end > list.length) {
         end = list.length;
     }
