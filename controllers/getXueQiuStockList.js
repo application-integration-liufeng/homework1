@@ -13,16 +13,14 @@ module.exports = async ctx => {
     .offset((page - 1) * size)
     .limit(size)
     .orderBy(order_by, order);
-  ctx.body = {
-    results: results.map(stock => {
-      return {
-        symbol: stock.symbol,
-        name: stock.name,
-        industry_name: stock.industry_name,
-        company_name: stock.company_name,
-        established_date: date2string(stock.established_date),
-        listed_date: date2string(stock.listed_date)
-      };
-    })
-  };
+  ctx.body = results.map(stock => {
+    return {
+      symbol: stock.symbol,
+      name: stock.name,
+      industry_name: stock.industry_name,
+      company_name: stock.company_name,
+      established_date: date2string(stock.established_date),
+      listed_date: date2string(stock.listed_date)
+    };
+  });
 };
