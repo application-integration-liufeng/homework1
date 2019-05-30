@@ -52,7 +52,7 @@ for i in data:
     yesterday_value = doc.createTextNode(str(data1[0]))
     yesterday.appendChild(yesterday_value)
 
-    db.execute("select chg,percent,market_capital from xueqiu where symbol = \'SZ" + i[0]+"\'")
+    db.execute("select chg,percent,market_capital from xueqiu_stocks where symbol = \'SZ" + i[0]+"\'")
     data1 = db.fetchone()
 
     chg_value = doc.createTextNode(str(data1[0]))

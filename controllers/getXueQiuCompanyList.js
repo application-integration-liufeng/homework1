@@ -1,5 +1,5 @@
 const mysql = require('../middleware/mysql');
-const date2string = require('../tools/date2string');
+const { date2stringdate } = require('../tools/date2string');
 
 module.exports = async ctx => {
   const page = ctx.request.body.page || 1;
@@ -19,8 +19,8 @@ module.exports = async ctx => {
       name: stock.name,
       industry_name: stock.industry_name,
       company_name: stock.company_name,
-      established_date: date2string(stock.established_date),
-      listed_date: date2string(stock.listed_date)
+      established_date: date2stringdate(stock.established_date),
+      listed_date: date2stringdate(stock.listed_date)
     };
   });
 };

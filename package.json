@@ -6,8 +6,9 @@
     "koa": "./node_modules/.bin/runkoa bin/www",
     "pm2": "pm2 start bin/run ",
     "test": "./node_modules/.bin/mocha -u bdd",
-    "initdb": "npm install && node tools/initdb.js && node tools/initxueqiudb.js && node tools/initsinadb.js",
-    "initxueqiudb": "node tools/initxueqiudb.js"
+    "initdb": "npm install && node tools/initdb.js && node tools/initsinadb.js && node tools/updatestockinfo.js",
+    "updatestocks": "node tools/updatestockinfo.js",
+    "updatecompanies": "node tools/updatecompanyinfo.js"
   },
   "dependencies": {
     "axios": "^0.18.0",

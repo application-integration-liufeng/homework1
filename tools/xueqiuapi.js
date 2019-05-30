@@ -1,5 +1,6 @@
 const request = require('../tools/request');
 const ProgressBar = require('progress');
+const { date2stringtime } = require('../tools/date2string');
 
 request.setUseCookie('xq_a_token', 'https://xueqiu.com');
 
@@ -39,7 +40,7 @@ async function getComments (stockSymbol) {
     subList.list.filter(comment => { return !comment.title }).forEach(comment => {
       list.push({
         name: comment.user.screen_name,
-        time: comment.created_at,
+        time: date2stringtime(new Date(comment.created_at)),
         content: comment.text
       })
     })
@@ -49,6 +50,15 @@ async function getComments (stockSymbol) {
   }
 
   return list;
+}
+
+async function getAllStocks ({ market = 'CN', type = 'sh_sz' }) {
+  try {
+    var size = await getStockCount(market, type);
+  } catch (error) {
+    return Promise.reject();
+  }
+  return getStockList({ market, type, size });
 }
 
 async function getStockList (
@@ -166,4 +176,4 @@ async function getCompanyList (
 
   return companyList;
 }
-module.exports = { getAllCompany, getStockList, getIndustries, getKLine, getComments };
+module.exports = { getAllCompany, getStockList, getAllStocks, getIndustries, getKLine, getComments };
