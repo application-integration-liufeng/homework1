@@ -12,8 +12,10 @@ const CONF = {
         path: [
             /^\/tushare\/detail/,
             /^\/tushare\/list/,
-            /^\/xueqiu\/detail/,
-            /^\/xueqiu\/list/
+            /^\/xueqiu\/stocklist/,
+            /^\/xueqiu\/stockcomment/,
+            /^\/xueqiu\/stockkline/,
+            /^\/xueqiu\/companylist/
         ]
     },
     url: {

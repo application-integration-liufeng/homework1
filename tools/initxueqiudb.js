@@ -1,8 +1,12 @@
 const mysql = require('../middleware/mysql');
-const { getAllStockList } = require('../tools/xueqiuapi');
+const { getAllCompany } = require('../tools/xueqiuapi');
 
 (async () => {
   try {
+    console.log('开始获取公司数据...');
+    let result = await getAllCompany({ type: 'sh_sz' });
+    console.log('公司数据获取成功！');
+
     let exists = mysql.schema.hasTable('xueqiu');
     if (await exists) {
       await mysql.schema.dropTable('xueqiu');
@@ -17,15 +21,11 @@ const { getAllStockList } = require('../tools/xueqiuapi');
       table.index('symbol');
     });
 
-    console.log('开始获取股票数据...');
-    let result = await getAllStockList({ type: 'sh_sz' });
-    console.log('股票数据获取成功！');
 
     console.log('开始写入数据库...');
     await mysql('xueqiu').insert(result);
     console.log('数据写入完成！');
   } catch (error) {
-    console.log(error);
     process.exitCode = 1;
   } finally {
     mysql.destroy();

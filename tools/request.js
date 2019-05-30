@@ -10,7 +10,7 @@ const MAX_RECONNECT_TIMES = 10;
 function responseHandler (response) {
   //保存需要的Cookie
   if (response.headers.hasOwnProperty('set-cookie')) {
-    response_use_cookies = response.headers['set-cookie'];
+    let response_use_cookies = response.headers['set-cookie'];
     response_use_cookies.map(cookie => {
       let cookie_key = cookie.split(';')[0].split('=')[0];
       let cookie_value = cookie.split(';')[0].split('=')[1];
@@ -21,7 +21,6 @@ function responseHandler (response) {
       }
     });
   }
-  reconnecting = 0;
   return response.data;
 }
 
@@ -58,26 +57,28 @@ function reconnect (id, config) {
     reconnect_requests[id] = { reconnect_times: 0 };
   }
   if (reconnect_requests[id].reconnect_times > MAX_RECONNECT_TIMES) {
-    console.log();
-    console.log('重连次数过多，任务完全中止');
-    process.exit();
+    delete reconnect_requests[id];
+    return Promise.reject();
   }
 
-  return new Promise(resolve => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       axios(config)
         .then(response => resolve(response))
         .catch(e => {
-          reconnect(id, config).then(response => resolve(response));
+          reconnect(id, config).then(response => resolve(response)).catch(error => reject(error));
         });
-    }, 3000);
+    }, 1000);
   });
 }
 
 //设置需要保存的Cookie
-ax_request.setUseCookie = function (key) {
+ax_request.setUseCookie = function (key, url) {
   if (!use_cookies.hasOwnProperty(key)) {
     use_cookies[key] = '';
+  }
+  if (url) {
+    axios.get(url);
   }
 };
 
