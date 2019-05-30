@@ -22,7 +22,7 @@ module.exports = async (ctx) =>{
     }
     let day = '01';
 
-    const data = {
+    let data = {
         api_name : 'daily',
         token : tushare_config.token,
         params : {
@@ -33,6 +33,30 @@ module.exports = async (ctx) =>{
     };
 
     stockDetail.daily = (await tushare(data)).data;
+
+    data = {
+        api_name : 'namechange',
+        token : tushare_config.token,
+        params : {
+            ts_code : stockDetail.ts_code,
+            //start_date: year + month + day
+        },
+        fields : ''
+    };
+
+    stockDetail.namechange = (await tushare(data)).data;
+
+    data = {
+        api_name : 'suspend',
+        token : tushare_config.token,
+        params : {
+            ts_code : stockDetail.ts_code,
+            //start_date: year + month + day
+        },
+        fields : ''
+    };
+
+    stockDetail.suspend = (await tushare(data)).data;
 
     ctx.body = stockDetail;
 };

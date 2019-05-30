@@ -6,7 +6,7 @@
     "koa": "./node_modules/.bin/runkoa bin/www",
     "pm2": "pm2 start bin/run ",
     "test": "./node_modules/.bin/mocha -u bdd",
-    "initdb": "npm install && node tools/initdb.js && node tools/initxueqiudb.js",
+    "initdb": "npm install && node tools/initdb.js && node tools/initxueqiudb.js && node tools/initsinadb.js",
     "initxueqiudb": "node tools/initxueqiudb.js"
   },
   "dependencies": {
